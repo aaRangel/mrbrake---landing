@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: #222;
+  color: #fff;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-automotive') center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 4em 2em;
+}
+
+.btn {
+  background: #e63946;
+  color: #fff;
+  padding: 0.8em 1.5em;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+section {
+  padding: 2em;
+}
+
+.servicios ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1em;
+}
+
+.promo-card {
+  background: #f1faee;
+  padding: 1em;
+  border-left: 5px solid #e63946;
+}
+
+.productos {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.producto {
+  background: #f8f9fa;
+  padding: 1em;
+  border: 1px solid #ccc;
+  flex: 1;
+  min-width: 200px;
+}
+
+form {
+  display: grid;
+  gap: 1em;
+  max-width: 500px;
+  margin: auto;
+}
+
+form input, form select, form button {
+  padding: 0.8em;
+  font-size: 1em;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 1em 0;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 2em 1em;
+}
+
+.redes a {
+  margin: 0 0.5em;
+  color: #fff;
+  text-decoration: none;
+}
